@@ -4,7 +4,7 @@ angular.module('app')
 
     $stateProvider
     .state('index', {
-        url: '/home',
+        url: '/',
         views: {
           '': {
             templateUrl: '../partials/home.html',
