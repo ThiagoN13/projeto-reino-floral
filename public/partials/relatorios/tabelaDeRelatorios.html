@@ -47,6 +47,8 @@
 						<th>Desbravador</th>
 						<th class="hidden-480">Instrutor</th>
 
+						<th class="hidden-480">Classe</th>
+
 						<th>
 							<i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
 							Data da assinatura
@@ -71,6 +73,9 @@
 						</td>
 						<td>{{item.autor}}</td>
 						<td class="hidden-480">{{item.instrutor}}</td>
+						<td>
+							<a href="#">Pesquisador</a>
+						</td>
 						<td>{{item.atualizacao | date: "dd/MM/yyyy"}}</td>
 
 						<td class="hidden-480">
@@ -86,7 +91,6 @@
 								<a class="green" href="#" ng-click="mudaStatus(item)">
 									<i class="ace-icon fa fa-pencil bigger-130"></i>
 								</a>
-
 								<a class="red" href="#" data-toggle="modal" data-target="#confirmDelete">
 									<i class="ace-icon fa fa-trash-o bigger-130"></i>
 								</a>

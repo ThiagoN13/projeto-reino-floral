@@ -21,6 +21,15 @@ angular.module('app')
           }
         }
       })
+      .state('enviar', {
+        url: '/enviar',
+        views: {
+          '': {
+            templateUrl: '../partials/relatorios/enviar-relatorio.html',
+            controller: 'listaDeRelatorios'
+          }
+        }
+      })
       .state('especialidades', {
         url: '/especialidades',
         views: {
@@ -35,7 +44,7 @@ angular.module('app')
         views: {
           '': {
             templateUrl: '../partials/quiz/tabelaDePerguntas.html',
-            controller: 'listaDePerguntas'
+            controller: ''
           }
         }
       })
@@ -49,10 +58,19 @@ angular.module('app')
         }
       })
       .state('quizform', {
-        url: '/quiz/form/:indice',
+        url: '/quiz/form/',
         views: {
           '': {
             templateUrl: '../partials/quiz/formQuiz.html',
+            controller: ''
+          }
+        }
+      })
+      .state('ranking', {
+        url: '/ranking',
+        views: {
+          '': {
+            templateUrl: '../partials/quiz/ranking.html',
             controller: ''
           }
         }
@@ -65,5 +83,15 @@ angular.module('app')
             controller: ''
           }
         }
+      })
+      .state('galeria', {
+        url: '/galeria',
+        views: {
+          '': {
+            templateUrl: '../partials/galeria.html',
+            controller: ''
+          }
+        }
       });
   }]);
+  
