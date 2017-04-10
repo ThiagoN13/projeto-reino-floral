@@ -17,9 +17,9 @@ module.exports = function() {
   app.use(bodyParser.urlencoded({extended: true}));
   app.use(bodyParser.json())
 
-//  load('controllers', {cwd: 'app'})
-//    .then('routers')
-//    .into(app);
+ // load('controllers', {cwd: 'app'})
+ //   .then('routers')
+ //   .into(app);
 
   return app;
 };

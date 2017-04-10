@@ -1,0 +1,26 @@
+{
+  "name": "projeto-reino-floral",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-load": "^1.1.15",
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThiagoN13/projeto-reino-floral"
+  },
+  "author": "Thiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoN13/projeto-reino-floral/issues"
+  },
+  "homepage": "https://github.com/ThiagoN13/projeto-reino-floral"
+}
