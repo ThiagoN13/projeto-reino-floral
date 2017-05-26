@@ -9,7 +9,9 @@
     "express-load": "^1.1.15",
     "requirejs": "^2.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "angular-messages": "^1.6.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

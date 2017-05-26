@@ -1,0 +1,23 @@
+{
+  "name": "prj-rf",
+  "description": "projeto desenvolvido para o clube reino floral",
+  "main": "index.js",
+  "authors": [
+    "Thiago"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ThiagoN13/projeto-reino-floral",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-ui-router": "^1.0.3",
+    "angular": "^1.6.4",
+    "angular-messages": "^1.6.4",
+    "angular-resource": "^1.6.4"
+  }
+}
